@@ -1,1 +1,245 @@
-<h1>lol</h1>
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Balogun Silver</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./css/css2" rel="stylesheet">
+
+    <script>
+        var savedTheme = localStorage.getItem('theme');
+
+        if (savedTheme) {
+            document.documentElement.dataset.theme = savedTheme;
+        } else {
+            var prefersDarkTheme = window.matchMedia('(prefers-color-scheme: dark)');
+            var theme = prefersDarkTheme.matches ? 'dark' : 'light';
+            document.documentElement.dataset.theme = theme;
+        }
+    </script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="manifest" href="./site.webmanifest">
+
+    <link rel="icon" href="./favicon.ico">
+
+    <meta property="og:title" content="Balogun Silver">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Balogun Silver">
+    <meta property="og:description" content="Backend developer">
+    <meta property="og:url" content="https://silverc0de.github.io">
+
+</head>
+<body data-new-gr-c-s-check-loaded="14.1065.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+
+    <div class="wrapper">
+
+        <header id="site-header">
+           
+            <button id="theme-toggle" class="button">
+                <img class="show-dark" src="./asset/sun.svg" alt="Change to light theme">
+                <img class="show-light" src="./asset/moon.svg" alt="Change to dark theme">
+
+                <span class="sr-only">Toggle theme</span>
+            </button>
+        </header>
+
+        <div class="hero">
+            <p class="hero__tagline">Balogun Silver<br></p>
+            <br>
+            <p>I am a backend developer by mistake 🤭</p>
+            <p>I started tech by configurating internet on Nokia phones in secondary school 👀</p>
+            <p>I fell in love with naijaloaded website and built mine at age 16 💀</p>
+            <p>I wanted to build my own company so i learnt Photoshop in 100Level 👄</p>
+            <p>I watched few cartoons from OurOwnArea! and learnt 2D animation in 200Level 👻</p>
+            <p>I wanted to build my own app so i learnt Android development in 300Level 🤧</p>
+            <p>I didn't have money to hire a backend developer so i became one in 400Level 🤡</p>
+            <p>I got tired of school when I got a job offer in final year as a mobile developer 👏</p>
+            <p>I got another job offer as an android developer 6 months later 🤞</p>
+            <p>I built the backend achitecture for the new company and i fell in love with it 🚀</p>
+        </div>
+
+        <section>
+            <h2>Brief introduction</h2>
+            <p class="hero__subtagline">
+                I am very obsessed about backend system design and achitecture. I love to build what works and what scales. I am also very good at critical thinking. I like to think about the system I want to build before i even start building it. I am a team player too. Give me anything complex, I'll figure it out!
+            </p>
+        </section>
+
+
+        <section>
+            <h2>Live projects I have worked on</h2>
+            <div class="cards-two-col">
+
+                <article class="card">
+                    <header>
+                        <img src="./asset/jiggy.png" alt="Jiggylife">
+                        <h3>Jiggylife</h3>
+                    </header>
+                    <p>
+                        Jiggylife is a social media platform.<br>
+                        Jiggylife is a social network like Twitter and Instagram where people come together to and get entertained. This is a personal project i like to work on during my free time and I also like to try out new things and experiment with my platform
+                    </p>
+                    <footer>
+                        <a class="button" href="https://jiggylife.com" target="_blank">
+                            Visit &nbsp;
+                            <svg class="external-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 17L17.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 7H17.5V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </footer>
+                </article>
+
+            
+
+
+
+                <article class="card">
+                    <header>
+                        <img src="./asset/pandar.png" alt="Pandar">
+                        <h3>Pandar</h3>
+                    </header>
+                    <p>
+                        Pandar is a fintech platform for everything crypto I worked on with a Team.<br>
+                        It allows you send, receive and sell cryptocurrency instantly. With backend infrastructure serving over 150k users with very little downtime
+                    </p>
+                    <footer>
+                        <a class="button" href="https://pandar.ng" target="_blank">
+                            Visit &nbsp;
+                            <svg class="external-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 17L17.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 7H17.5V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </footer>
+                </article>
+
+
+                <article class="card">
+                    <header>
+                        <img src="./asset/giftcardpays.png" alt="Xendlife">
+                        <h3>Giftcardpays</h3>
+                    </header>
+                    <p>
+                        Giftcardpays is a giftcard trading platform.<br>
+                        With a backend of 99% uptime and zero major issues since launched. Giftcardpays backend achitecture is solid and built with a lot of edge-cases put into consideration.
+                    </p>
+                    <footer>
+                        <a class="button" href="https://giftcardpays.com" target="_blank">
+                            Visit &nbsp;
+                            <svg class="external-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 17L17.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 7H17.5V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </footer>
+                </article>
+
+
+                <article class="card">
+                    <header>
+                        <img src="./asset/redem.png" alt="Redem">
+                        <h3>Redem</h3>
+                    </header>
+                    <p>
+                        Redem is a premium giftcard trading platform in Nigeria.<br>
+                        I worked with a team on this particular project and I was able to deliver part of the database achitecture and also implemented some features. The backend achitecture currently serves over 50k users with minimal issue.
+                    </p>
+                    <footer>
+                        <a class="button" href="https://getredem.io" target="_blank">
+                            Visit &nbsp;
+                            <svg class="external-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.5 17L17.5 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 7H17.5V17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </footer>
+                </article>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Social media links</h2>
+
+            <div class="cards-four-col">
+                <div class="socialcard">
+                    <a href="https://github.com/silverc0de" target="_blank">
+                        <figure>
+                            <img src="./asset/github.png" width="48px" height="48px" alt="Github link">
+                        </figure>
+                        <p>Github</p>
+                    </a>
+                </div>
+
+                <div class="socialcard">
+                    <a href="https://twitter.com/silverc0de" target="_blank">
+                        <figure>
+                            <img src="./asset/twitter.png" width="48px" height="48px" alt="Twitter link">
+                        </figure>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+
+                <div class="socialcard">
+                    <a href="https://linkedin.com/in/siilver" target="_blank">
+                        <figure>
+                            <img src="./asset/linkedin.png" width="48px" height="48px" alt="LinkedIn link">
+                        </figure>
+                        <p>LinkedIn</p>
+                    </a>
+                </div>
+
+                <div class="socialcard">
+                    <a href="https://facebook.com/silverc0de" target="_blank">
+                        <figure>
+                            <img src="./asset/facebook.png" width="48px" height="48px" alt="Facebook link">
+                        </figure>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+
+                <div class="socialcard">
+                    <a href="https://instagram.com/silverc0de" target="_blank">
+                        <figure>
+                            <img src="./asset/instagram.png" width="48px" height="48px" alt="Instagram link">
+                        </figure>
+                        <p>Instagram</p>
+                    </a>
+                </div>
+
+                <div class="socialcard">
+                    <a href="mailto:silverg33k@gmail.com" target="_blank">
+                        <figure>
+                            <img src="./asset/gmail.png" width="48px" height="48px" alt="Mail address">
+                        </figure>
+                        <p>Mail</p>
+                    </a>
+                </div>
+            
+            </div>
+        </section>
+
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/background.js" async="" defer=""></script>
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            var currentTheme = document.documentElement.dataset.theme || 'light';
+            var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.dataset.theme = newTheme;
+            localStorage.setItem('theme', newTheme);
+            animloop();
+        });
+    </script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
