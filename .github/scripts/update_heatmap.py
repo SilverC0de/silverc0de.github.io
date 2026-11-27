@@ -11,8 +11,8 @@ SVG_PATH = os.path.join(ROOT, "asset", "github-contributions.svg")
 SVG_DARK_PATH = os.path.join(ROOT, "asset", "github-contributions-dark.svg")
 HTML_PATH = os.path.join(ROOT, "index.html")
 
-LIGHT = ["#e3e7e3", "#a3cbab", "#629c70", "#376e45", "#173d22"]
-DARK = ["#1f231f", "#2d5537", "#468757", "#6fb680", "#a9e4b6"]
+LIGHT = ["#f2f2f2", "#a3cbab", "#629c70", "#376e45", "#173d22"]
+DARK = ["#1a1a1a", "#2d5537", "#468757", "#6fb680", "#a9e4b6"]
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2,
           "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 

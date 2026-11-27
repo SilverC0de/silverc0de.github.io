@@ -391,14 +391,14 @@ h1 img {
     border-radius: 2px;
 }
 
-.heatmap__legend .level-0 { background: #e3e7e3; }
+.heatmap__legend .level-0 { background: #f2f2f2; }
 .heatmap__legend .level-1 { background: #a3cbab; }
 .heatmap__legend .level-2 { background: #629c70; }
 .heatmap__legend .level-3 { background: #376e45; }
 .heatmap__legend .level-4 { background: #173d22; }
 
 [data-theme="dark"] .heatmap__legend { color: #cdd5ce; }
-[data-theme="dark"] .heatmap__legend .level-0 { background: #1f231f; }
+[data-theme="dark"] .heatmap__legend .level-0 { background: #1a1a1a; }
 [data-theme="dark"] .heatmap__legend .level-1 { background: #2d5537; }
 [data-theme="dark"] .heatmap__legend .level-2 { background: #468757; }
 [data-theme="dark"] .heatmap__legend .level-3 { background: #6fb680; }
