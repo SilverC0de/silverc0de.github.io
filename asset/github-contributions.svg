@@ -6,14 +6,6 @@
     .level-2 { fill: #629c70; }
     .level-3 { fill: #376e45; }
     .level-4 { fill: #173d22; }
-    @media (prefers-color-scheme: dark) {
-        text { fill: #cdd5ce; }
-        .level-0 { fill: #1f231f; }
-        .level-1 { fill: #2d5537; }
-        .level-2 { fill: #468757; }
-        .level-3 { fill: #6fb680; }
-        .level-4 { fill: #a9e4b6; }
-    }
 </style>
 <title>SilverC0de’s GitHub contribution calendar</title>
 <rect class="level-1" x="0" y="18" width="10" height="10" rx="2" fill="#a3cbab"><title>2025-11-23</title></rect>

@@ -320,12 +320,13 @@ h1 img {
     height: auto;
 }
 
-[data-theme="light"] .github-heatmap {
-    color-scheme: light;
+.heatmap--dark,
+[data-theme="dark"] .heatmap--light {
+    display: none;
 }
 
-[data-theme="dark"] .github-heatmap {
-    color-scheme: dark;
+[data-theme="dark"] .heatmap--dark {
+    display: block;
 }
 
 .project-cards {
