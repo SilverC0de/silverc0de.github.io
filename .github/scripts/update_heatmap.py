@@ -80,6 +80,7 @@ def main():
     html, n = re.subn(r'(<span class="heatmap__date">)[^<]*(</span>)', rf"\g<1>{stamp}\g<2>", html)
     if n != 1:
         raise SystemExit("Could not find the heatmap date in index.html")
+    html = re.sub(r'(github-contributions(?:-dark)?\.svg)(\?v=\d+)?"', rf'\g<1>?v={last:%Y%m%d}"', html)
     with open(HTML_PATH, "w", encoding="utf-8") as f:
         f.write(html)
     print(stamp)
